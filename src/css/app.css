@@ -1,0 +1,121 @@
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-family:  'Roboto', sans-serif;
+
+}
+#app .container {
+  width: 380px;
+  height: 880px;
+  z-index: 100;
+color: rgb(13, 14, 13);
+  background:rgb(240, 239, 239);
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+}
+
+#app .container-view {
+  padding: 20px;
+}
+.archive{
+    width: 80%;
+    height: 70px;
+    margin: 10px 0px 0px 30px;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.384);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 3px rgb(161, 160, 160);
+    border-radius: 20px ;
+    font-weight: bolder;
+    
+}
+.archive:hover{
+  color: rgb(0, 0, 0);
+  transition: .25 s;
+}
+.archive > span{
+    align-self: center;
+}
+.archive div {
+   padding: auto 0px auto auto; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.archive img {
+  align-self: left;
+  padding-right: 5px;
+}
+.callSection{
+  padding-top: 10px;
+}
+.callLog{
+  height: 50px;
+  padding-top: 1em;
+  background-color: white;
+  border: solid 2px rgb(161, 160, 160);
+  border-radius: 10px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 1.5em 1em 1.5em 1em;
+  text-align: center;
+}
+.date{
+  text-align: right;
+  padding: 0px 5px 0px 5px;
+  color: hsl(224, 23%, 55%);
+}
+.comp{
+  height: 50px;
+    border: solid 1px rgb(112, 112, 112);
+    border-radius: 10px ;
+    display: block;
+    margin: 1.5em 1em 1.5em 1em;
+    text-align: center;
+}
+
+.Icon{
+  padding-left: 2em;
+  width: 20px;
+  height: 20px;
+}
+.Names{
+  flex-direction: column;
+  padding-left: 2em;
+  width: 200px;
+}
+.call{
+  text-align: left;
+  padding-top: 0.5em;
+  color: hsl(224, 23%, 55%);
+}
+.caller{
+  text-align: left;
+  font-weight: 500;
+  font-weight: bolder;
+}
+.missedCall{
+  color:rgb(192, 15, 15);
+}
+.answeredCall{
+  color: rgb(53, 158, 53);
+}
+.time{
+  text-align: center;
+  justify-content: center;
+  height: 20px;
+  padding-left: 3px;
+  margin: auto;
+  color: hsl(224, 23%, 55%);
+  border-left: 2px dotted grey;
+}
